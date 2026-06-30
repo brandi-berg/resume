@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brandi Bergstrom — Talent Leader & Recruiting Operator</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #292524;
+    background: #faf9f6;
+    line-height: 1.5;
+    padding: 40px 20px;
+  }
+
+  .resume-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #e7e5e4;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    padding: 50px;
+  }
+
+  /* HEADER */
+  header {
+    border-bottom: 2px solid #f5f5f4;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+  }
+  .header-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: #1c1917;
+    line-height: 1.1;
+  }
+  .title-sub {
+    font-size: 1.1rem;
+    color: #c2410c;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  .contact-info {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #6b6661;
+    line-height: 1.6;
+  }
+  .contact-info a {
+    color: #1c1917;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid #d6d3d1;
+  }
+  .contact-info a:hover {
+    color: #c2410c;
+    border-color: #c2410c;
+  }
+
+  /* LAYOUT SECTIONS */
+  section {
+    margin-bottom: 35px;
+  }
+  .section-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #78716c;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f5f5f4;
+    padding-bottom: 5px;
+  }
+
+  .summary-text {
+    font-size: 1.05rem;
+    color: #44403c;
+    line-height: 1.6;
+  }
+
+  /* AI HIGHLIGHT BLOCK */
+  .ai-fluency-card {
+    background: #fff8f5;
+    border: 1px solid #fde8d8;
+    border-left: 4px solid #ea580c;
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 35px;
+  }
+  .ai-fluency-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #9a3412;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .ai-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    font-size: 0.9rem;
+    color: #57534e;
+  }
+  @media (max-width: 600px) { .ai-grid { grid-template-columns: 1fr; } }
+  .ai-tags {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed #fde8d8;
+  }
+  .tag {
+    display: inline-block;
+    font-size: 0.78rem;
+    font-family: monospace;
+    background: #fde8d8;
+    color: #9a3412;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin: 3px 3px 0 0;
+    font-weight: 600;
+  }
+
+  /* EXPERIENCE WORKPLACE BLOCK */
+  .job-block {
+    margin-bottom: 28px;
+  }
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 6px;
+  }
+  .job-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1c1917;
+  }
+  .job-title span {
+    font-weight: 500;
+    color: #78716c;
+  }
+  .job-date {
+    font-size: 0.9rem;
+    color: #a8a29e;
+    font-weight: 500;
+  }
+  .job-sub {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #78716c;
+    margin-bottom: 8px;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+    color: #44403c;
+  }
+  li::before {
+    content: "•";
+    position: absolute;
+    left: 4px;
+    color: #ea580c;
+    font-weight: bold;
+  }
+
+  /* TWO COLUMN BOTTOM GRID */
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  @media (max-width: 600px) { .footer-grid { grid-template-columns: 1fr; } }
+
+  .competencies-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .comp-tag {
+    font-size: 0.8rem;
+    background: #f5f5f4;
+    color: #44403c;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid #e7e5e4;
+  }
+</style>
+</head>
+<body>
+
+<div class="resume-container">
+  
+  <!-- HEADER -->
+  <header>
+    <div class="header-meta">
+      <div>
+        <h1>Brandi Bergstrom</h1>
+        <div class="title-sub">Talent Leader & Recruiting Operator</div>
+      </div>
+      <div class="contact-info">
+        <div>SF Bay Area &bull; Remote / Hybrid</div>
+        <div>408.761.1310 &bull; <a href="mailto:brandicmt@gmail.com">brandicmt@gmail.com</a></div>
+        <div><a href="https://github.com/brandi-berg" target="_blank">GitHub</a> &bull; <a href="#" target="_blank">LinkedIn</a></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SUMMARY -->
+  <section>
+    <div class="summary-text">
+      Talent leader and recruiting operator with 15+ years' experience scaling high-performance hiring functions at AI-native, developer-tooling, and infrastructure startups from Series A through Series D[cite: 2]. Known for building data-driven talent organizations that hire with quality and velocity, eliminating agency dependency, and deploying modern tooling to compound team capacity[cite: 2].
+    </div>
+  </section>
+
+  <!-- AI FLUENCY HIGHLIGHT -->
+  <section class="ai-fluency-card">
+    <h3><span>🤖</span> AI Fluency & Operational Leverage</h3>
+    <div class="ai-grid">
+      <div>
+        <strong>Agent Automation:</strong> Built AI-powered agents and workflows (via Claude Code, Cowork, OpenClaw) for sourcing velocity, customized outreach sequencing, and pipeline analytics[cite: 2].
+      </div>
+      <div>
+        <strong>Community Leadership:</strong> Certified AI Native Recruiter via PromptMates; Co-lead of the AI Mastermind Group within the Talent Collective community[cite: 2].
+      </div>
+    </div>
+    <div class="ai-tags">
+      <span class="tag">Claude Code</span>
+      <span class="tag">Cowork</span>
+      <span class="tag">OpenClaw</span>
+      <span class="tag">Cursor</span>
+      <span class="tag">Lovable</span>
+      <span class="tag">Zapier</span>
+      <span class="tag">Metaview</span>
+      <span class="tag">Ashby</span>
+      <span class="tag">Greenhouse</span>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section>
+    <div class="section-title">Professional Experience</div>
+
+    <div class="job-block">
+      <div class="job-header">
+        <div class="job-title">Recruiting Manager &bull; <span>Replicated</span></div>
+        <div class="job-date">June 2024 — April 2026</div>
+      </div>
+      <div class="job-sub">Developer tooling startup. Kubernetes-native enterprise software delivery[cite: 2].</div>
+      <ul>
+        <li>Served as sole talent resource, owning end-to-end global recruiting strategy, headcount execution, and talent infrastructure[cite: 2].</li>
+        <li>Hired 16 personnel across 3 countries spanning Engineering, Product, Marketing, and Revenue with zero agency spend[cite: 2].</li>
+        <li>Built custom AI-powered recruiting automations leveraging Claude Code, Cowork, and OpenClaw to optimize sourcing workflows and candidate extraction[cite: 2].</li>
+        <li>Redesigned technical screening rubrics and interview gates to elevate signal quality and drive down regrettable attrition[cite: 2].</li>
+      </ul>
+    </div>
+
+    <div class="job-block">
+      <div class="job-header">
+        <div class="job-title">Head of Talent &bull; <span>HumanSignal</span></div>
+        <div class="job-date">May 2022 — May 2024</div>
+      </div>
+      <div class="job-sub">AI/ML startup in the MLOps space. First talent and HR hire[cite: 2].</div>
+      <ul>
+        <li>Built the global talent acquisition and people operations infrastructure from the ground up[cite: 2].</li>
+        <li>Scaled organization by 41 hires across 7 international countries while completely eliminating agency dependencies[cite: 2].</li>
+        <li>Deployed Greenhouse ATS and Rippling HRIS; built structured interviewing paths and interviewer calibration playbooks[cite: 2].</li>
+        <li>Designed company-wide workforce planning models, career ladders, leveling rubrics, and competitive compensation bands[cite: 2].</li>
+      </ul>
+    </div>
+
+    <div class="job-block">
+      <div class="job-header">
+        <div class="job-title">Director, Recruiting &bull; <span>Netlify</span></div>
+        <div class="job-date">July 2019 — February 2022</div>
+      </div>
+      <div class="job-sub">Developer platform (Jamstack/edge). First recruiting hire, scaled from Series B to Series D[cite: 2].</div>
+      <ul>
+        <li>Scaled internal head count from 50 to 220+ employees while building and leading an agile talent team of 8 professionals[cite: 2].</li>
+        <li>Personally managed full-cycle execution for high-leverage IC through Vice President level requisitions[cite: 2].</li>
+        <li>Maintained an exceptional 92%+ offer acceptance rate while hit-rate tracking ahead of quarterly executive KPIs[cite: 2].</li>
+        <li>Drove systemic DEI outcomes, securing 45%+ of total strategic hires from historically underrepresented backgrounds[cite: 2].</li>
+      </ul>
+    </div>
+
+    <div class="job-block">
+      <div class="job-header">
+        <div class="job-title">Senior Recruiter &bull; <span>UCSF Medical Center</span></div>
+        <div class="job-date">December 2015 — July 2019</div>
+      </div>
+      <ul>
+        <li>Led high-volume, full-cycle recruiting for nursing leadership and clinical roles, managing 75+ active requisitions concurrently[cite: 2].</li>
+        <li>Averaged 45 hires per month; served as workforce deployment lead managing surge staffing pipelines[cite: 2].</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- BOTTOM GRID -->
+  <div class="footer-grid">
+    
+    <!-- COMPETENCIES -->
+    <section>
+      <div class="section-title">Core Competencies</div>
+      <div class="competencies-list">
+        <span class="comp-tag">Full-Cycle Technical Sourcing</span>
+        <span class="comp-tag">Recruiting Ops & Infrastructure</span>
+        <span class="comp-tag">Capacity Planning</span>
+        <span class="comp-tag">Compensation & Leveling</span>
+        <span class="comp-tag">Interview Architecture</span>
+        <span class="comp-tag">Global Hiring compliance</span>
+        <span class="comp-tag">Employer Branding</span>
+      </div>
+    </section>
+
+    <!-- EDUCATION & ORGS -->
+    <section>
+      <div class="section-title">Education & Certifications</div>
+      <div class="summary-text" style="font-size: 0.9rem; line-height: 1.7;">
+        • <strong>Certified AI Native Recruiter</strong> &bull; PromptMates[cite: 2]<br>
+        • <strong>BA, Psychology</strong> &bull; University of San Francisco[cite: 2]<br>
+        • <strong>Advanced HR Certificate</strong> &bull; Cal State East Bay[cite: 2]<br>
+        • <strong>SPHR Certificate</strong> &bull; Lapsed during COVID[cite: 2]
+      </div>
+    </section>
+
+  </div>
+
+</div>
+
+</body>
+</html>

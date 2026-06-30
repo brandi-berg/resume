@@ -16,7 +16,7 @@ Welcome to my professional profile repository. I specialize in building data-dri
 ## ⚡ Core Philosophy & Operational Value
 
 > **Scale with Capital Efficiency**
-> I focus on completely eliminating expensive third-party agency dependencies by upskilling internal teams, refining candidate screening gates, and mapping structured, bias-free interview processes.
+> I focus on eliminating expensive third-party agency dependencies by upskilling internal teams, refining candidate screening gates, and mapping structured, bias-free interview processes.
 
 > **AI-Forward Talent Operations**
 > I don't just experiment with AI tools; I build and ship functional prompt engineering frameworks, state-persistent workflows, and automation chains that exponentially increase sourcing output and personalization quality.

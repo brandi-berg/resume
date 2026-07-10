@@ -27,8 +27,8 @@ Welcome to my professional profile repository. I specialize in building data-dri
 
 * **Core Tracking & HRIS:** Ashby, Greenhouse, Lever, Rippling, Workday
 * **AI & Workflow Automation:** Claude Code, Cowork, OpenClaw, Cursor, Lovable, Zapier
-* **Sourcing Intelligence:** Gem, Neon AI, Juicebox, SeekOut, Findem, LinkedIn Recruiter
-* **Data & Collaboration:** Metaview, Tofu, Tableau, SQL (basic), Miro, Jira/Confluence
+* **Sourcing & Talent Intelligence:** Noon.ai, Juicebox, Metaview, Gem, Tofu, SeekOut, Findem, LinkedIn Recruiter
+* **Data:** Google Sheets & Data Studio, SQL (basic)
 
 ---
 

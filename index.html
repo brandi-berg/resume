@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Brandi Bergstrom — Talent Leader & Recruiting Operator</title>
+<title>Brandi Bergstrom — Talent Leader, Recruiting Operator, AI Builder</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -88,8 +88,66 @@
     color: #44403c;
     line-height: 1.6;
   }
+  .summary-text p + p {
+    margin-top: 12px;
+  }
 
-  /* AI FLUENCY HIGHLIGHT BLOCK */
+  /* WHAT I ACTUALLY DO */
+  .capability {
+    margin-bottom: 18px;
+    padding-left: 16px;
+    border-left: 3px solid #fde8d8;
+  }
+  .capability:last-child { margin-bottom: 0; }
+  .capability strong {
+    color: #1c1917;
+    font-weight: 700;
+  }
+  .capability p {
+    font-size: 0.95rem;
+    color: #44403c;
+    line-height: 1.6;
+  }
+
+  /* JUDGMENT CALLS */
+  .section-lede {
+    font-size: 0.9rem;
+    color: #78716c;
+    margin-bottom: 16px;
+    margin-top: -6px;
+  }
+  .story-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  @media (max-width: 600px) { .story-grid { grid-template-columns: 1fr; } }
+  .story-card {
+    background: #fafaf9;
+    border: 1px solid #f5f5f4;
+    border-radius: 8px;
+    padding: 18px 20px;
+  }
+  .story-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #c2410c;
+    margin-bottom: 8px;
+  }
+  .story-card p {
+    font-size: 0.92rem;
+    color: #44403c;
+    line-height: 1.6;
+  }
+  .story-card p + p { margin-top: 10px; }
+  .story-takeaway {
+    font-weight: 600;
+    color: #1c1917;
+  }
+
+  /* AI SYSTEMS HIGHLIGHT BLOCK */
   .ai-fluency-card {
     background: #fff8f5;
     border: 1px solid #fde8d8;
@@ -102,10 +160,19 @@
     font-size: 1rem;
     font-weight: 700;
     color: #9a3412;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     display: flex;
     align-items: center;
     gap: 8px;
+  }
+  .ai-lede {
+    font-size: 0.88rem;
+    color: #78716c;
+    margin-bottom: 14px;
+  }
+  .ai-lede a {
+    color: #9a3412;
+    font-weight: 600;
   }
   .ai-grid {
     display: grid;
@@ -115,8 +182,15 @@
     color: #57534e;
   }
   @media (max-width: 600px) { .ai-grid { grid-template-columns: 1fr; } }
+  .ai-grid a {
+    color: #9a3412;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid #fde8d8;
+  }
+  .ai-grid a:hover { border-color: #ea580c; }
   .ai-tags {
-    margin-top: 12px;
+    margin-top: 14px;
     padding-top: 12px;
     border-top: 1px dashed #fde8d8;
   }
@@ -180,6 +254,18 @@
     font-weight: bold;
   }
 
+  /* BUDGET NOTE */
+  .budget-note {
+    font-size: 0.9rem;
+    color: #57534e;
+    background: #fafaf9;
+    border: 1px solid #f5f5f4;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-top: 4px;
+  }
+  .budget-note strong { color: #1c1917; }
+
   /* TWO COLUMN BOTTOM GRID */
   .footer-grid {
     display: grid;
@@ -193,6 +279,20 @@
     line-height: 1.8;
     color: #44403c;
   }
+
+  /* LOOKING FOR */
+  .looking-for {
+    border-top: 2px solid #f5f5f4;
+    padding-top: 30px;
+    margin-top: 35px;
+  }
+  .looking-for p {
+    font-size: 0.98rem;
+    color: #44403c;
+    line-height: 1.65;
+  }
+  .looking-for p + p { margin-top: 12px; }
+  .looking-for em { color: #c2410c; font-style: italic; }
 </style>
 </head>
 <body>
@@ -204,12 +304,12 @@
     <div class="header-meta">
       <div>
         <h1>Brandi Bergstrom</h1>
-        <div class="title-sub">Talent Leader & Recruiting Operator</div>
+        <div class="title-sub">Talent Leader, Recruiting Operator, AI Builder</div>
       </div>
       <div class="contact-info">
         <div>SF Bay Area &bull; Remote / Hybrid</div>
         <div>408.761.1310 &bull; <a href="mailto:brandicmt@gmail.com">brandicmt@gmail.com</a></div>
-        <div><a href="https://github.com/brandi-berg" target="_blank">GitHub</a> &bull; <a href="#" target="_blank">LinkedIn</a></div>
+        <div><a href="https://github.com/brandi-berg" target="_blank">GitHub</a> &bull; <a href="https://www.linkedin.com/in/brandi-bergstrom/" target="_blank">LinkedIn</a></div>
       </div>
     </div>
   </header>
@@ -217,19 +317,67 @@
   <!-- SUMMARY -->
   <section>
     <div class="summary-text">
-      Talent leader and recruiting operator with 15+ years' experience scaling high-performance hiring functions at AI-native, developer-tooling, and infrastructure startups from Series A through Series D. Known for building data-driven talent organizations that hire with quality and velocity, eliminating agency dependency, and deploying modern tooling to compound team capacity.
+      <p>I help startups hire the humans who make the product work. 15+ years across full-cycle recruiting, recruiting operations, and People, at AI-native, developer-tooling, and infrastructure companies from Series A through D. Built the talent function from zero twice, scaled a third from 50 to 220+, and ran every one of them lean.</p>
+      <p>I also build the tooling. Working AI agents and automations, shipped and public, not slideware.</p>
     </div>
   </section>
 
-  <!-- AI FLUENCY HIGHLIGHT -->
+  <!-- WHAT I ACTUALLY DO -->
+  <section>
+    <div class="section-title">What I Actually Do</div>
+
+    <div class="capability">
+      <p><strong>Translating subtle human signals into talent outcomes.</strong> Through years of recruiting and deep human observation, I've learned that a candidate's slope, curiosity, and genuine intent are just as measurable as their hard skills. This helps teams see the whole candidate, not just what's on paper. These unseen variables make the difference between a good hire and a transformative one.</p>
+    </div>
+
+    <div class="capability">
+      <p><strong>Advising founders and execs, even when it's bad news.</strong> From good news to hard truths, just straight talk. I deliver the information with data behind it and an understanding touch, so we can take action. At times it's helping leaders see when we're asking too much, or not enough. Sometimes it's saying a candidate's yes is not coming before we spend weeks finding out. Other times it's knowing to give grace to a candidate whose hesitation is conscientiousness, not disinterest.</p>
+    </div>
+
+    <div class="capability">
+      <p><strong>Designing the systems that make hiring repeatable.</strong> Interview methodology, structured scorecards, calibration cadence, leveling rubrics, job families, comp bands, capacity models. I built an escalating AI-fluency bar across an entire interview funnel at Replicated, from scratch, and it changed who got hired.</p>
+    </div>
+  </section>
+
+  <!-- JUDGMENT CALLS -->
+  <section>
+    <div class="section-title">Judgment Calls</div>
+    <div class="section-lede">Two reads, opposite conclusions, same instrument. This is the part of the job that doesn't fit in a bullet.</div>
+    <div class="story-grid">
+
+      <div class="story-card">
+        <div class="story-label">When the yes was never coming</div>
+        <p>A design leader said everything we wanted to hear: compelling opportunity, interesting problems, a team to build. The founder was ready to move. But the urgency was off, the pacing was off, and they had just come out of a startup.</p>
+        <p>I said the yes was not coming, and that we were being used to close out a process somewhere larger. They took the other role.</p>
+        <p class="story-takeaway">We stopped spending weeks and executive capital on a search that was never going to land.</p>
+      </div>
+
+      <div class="story-card">
+        <div class="story-label">When the slow yes was real</div>
+        <p>A senior engineering candidate took a long time to decide. The founder read it as disinterest and wanted to pull the offer.</p>
+        <p>I read it differently. This was someone who took commitment seriously enough not to perform certainty they hadn't earned yet. The hesitation was conscientiousness. Startups are hard, and people who join without being sure tend not to stay.</p>
+        <p class="story-takeaway">Same signal, opposite meaning. Reading it wrong would have cost us a candidate we wanted.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- AI SYSTEMS -->
   <section class="ai-fluency-card">
-    <h3><span>🤖</span> AI Fluency & Operational Leverage</h3>
+    <h3><span>🤖</span> AI Systems I've Built</h3>
+    <div class="ai-lede">Public work at <a href="https://github.com/brandi-berg" target="_blank">github.com/brandi-berg</a>. Build the tools when the tools don't exist; leverage trusted ones when they already do.</div>
     <div class="ai-grid">
       <div>
-        <strong>Agent Automation:</strong> Built AI-powered agents and workloads (via Claude Code, Cowork, OpenClaw) for sourcing velocity, customized outreach sequencing, and pipeline analytics.
+        <strong><a href="https://github.com/brandi-berg/gibbons" target="_blank">Gibbons</a></strong> — a structured recruiting workflow system that takes a role from rough job description to validated candidate outreach. JD enhancement, kickoff signal extraction, OKR/KPI definition, interview kit generation, and candidate validation with citation-backed scoring.
       </div>
       <div>
-        <strong>Community Leadership:</strong> Certified AI Native Recruiter via PromptMates; Co-lead of the AI Mastermind Group within the Talent Collective community.
+        <strong><a href="https://github.com/brandi-berg/annie" target="_blank">Annie</a></strong> — a Claude Code plugin that drafts tailored cover letters and application answers strictly from your own materials, with a refuse-and-ask rule instead of improvisation. Gibbons works one side of the hiring desk; Annie works the other.
+      </div>
+      <div>
+        <strong>Tasker</strong> — a personal productivity PWA built in Next.js, integrating Google Calendar, Notion, ElevenLabs voice, the Claude API, and Supabase. Continuous delivery from GitHub to Netlify.
+      </div>
+      <div>
+        <strong>Community</strong> — Certified AI Native Recruiter via PromptMates. Co-lead of the AI &amp; Automations Mastermind Group within Talent Collective, training talent professionals to actually use AI tooling.
       </div>
     </div>
     <div class="ai-tags">
@@ -237,6 +385,7 @@
       <span class="tag">Cowork</span>
       <span class="tag">OpenClaw</span>
       <span class="tag">Cursor</span>
+      <span class="tag">NotebookLM</span>
       <span class="tag">Lovable</span>
       <span class="tag">Zapier</span>
       <span class="tag">Metaview</span>
@@ -256,10 +405,11 @@
       </div>
       <div class="job-sub">Developer tooling startup. Kubernetes-native enterprise software delivery.</div>
       <ul>
-        <li>Served as sole talent resource, owning end-to-end global recruiting strategy, headcount execution, and talent infrastructure.</li>
-        <li>Hired 16 personnel across 3 countries spanning Engineering, Product, Marketing, and Revenue with zero agency spend.</li>
-        <li>Built custom AI-powered recruiting automations leveraging Claude Code, Cowork, and OpenClaw to optimize sourcing workflows and candidate extraction.</li>
-        <li>Redesigned technical screening rubrics and interview gates to elevate signal quality and drive down regrettable attrition.</li>
+        <li>Sole talent hire; owned recruiting strategy, full-cycle execution, and operations for the company.</li>
+        <li>Hired 16 people across 3 countries (Engineering, Product, Marketing, Revenue), IC through senior leadership.</li>
+        <li>Designed an escalating AI-fluency bar across the full interview funnel, from scratch. It changed who got hired.</li>
+        <li>Built recruiting automations in Claude Code, Cowork, and OpenClaw for sourcing, personalized outreach, and pipeline reporting: the direct predecessor to Gibbons.</li>
+        <li>Redesigned technical screens and behavioral interview frameworks to improve signal quality and reduce regrettable attrition.</li>
       </ul>
     </div>
 
@@ -268,12 +418,14 @@
         <div class="job-title">Head of Talent &bull; <span>HumanSignal</span></div>
         <div class="job-date">May 2022 — May 2024</div>
       </div>
-      <div class="job-sub">AI/ML startup in the MLOps space. First talent and HR hire.</div>
+      <div class="job-sub">AI/ML startup in the MLOps space. First talent and People hire, building both functions from zero.</div>
       <ul>
-        <li>Built the global talent acquisition and people operations infrastructure from the ground up.</li>
-        <li>Scaled organization by 41 hires across 7 international countries while completely eliminating agency dependencies.</li>
-        <li>Deployed Greenhouse ATS and Rippling HRIS; built structured interviewing paths and interviewer calibration playbooks.</li>
-        <li>Designed company-wide workforce planning models, career ladders, leveling rubrics, and competitive compensation bands.</li>
+        <li>Hired 41 people across 7 countries (Engineering, Product, Marketing, Revenue, Customer Success).</li>
+        <li>Built a lean team of two: a People Ops Manager and a Senior Contract Recruiter.</li>
+        <li>Designed workforce planning strategy, job families, leveling rubrics, and compensation bands from scratch.</li>
+        <li>Implemented Greenhouse and Rippling; built structured interviewing and interviewer calibration training.</li>
+        <li>Wrote the employee handbook; built onboarding/offboarding, PTO, leave, and immigration processes.</li>
+        <li>Featured speaker, "What's Your Why?" podcast, Greenhouse.</li>
       </ul>
     </div>
 
@@ -284,10 +436,13 @@
       </div>
       <div class="job-sub">Developer platform (Jamstack/edge). First recruiting hire, scaled from Series B to Series D.</div>
       <ul>
-        <li>Scaled internal head count from 50 to 220+ employees while building and leading an agile talent team of 8 professionals.</li>
-        <li>Personally managed full-cycle execution for high-leverage IC through Vice President level requisitions.</li>
-        <li>Maintained an exceptional 92%+ offer acceptance rate while hit-rate tracking ahead of quarterly executive KPIs.</li>
-        <li>Drove systemic DEI outcomes, securing 45%+ of total strategic hires from historically underrepresented backgrounds.</li>
+        <li>Scaled the org from 50 to 220+ employees; built and led an 8-person recruiting team (4 Senior Recruiters, 1 Sourcer, 2 Operations staff).</li>
+        <li>Personally carried an individual requisition load, IC through VP, alongside managing the team.</li>
+        <li>Sustained a 92%+ offer acceptance rate while consistently exceeding quarterly hiring goals.</li>
+        <li>Over 45% of hires came from racial/ethnic minorities and people with disabilities across a multi-year tenure.</li>
+        <li>Designed the interview methodology, structured scorecards, and calibration cadence from the ground up.</li>
+        <li>Partnered with founders, executives, and Finance on career ladders, compensation bands, equity, and capacity models.</li>
+        <li>Built the recruiting tech stack and the dashboards and KPI reporting used for board visibility.</li>
       </ul>
     </div>
 
@@ -298,13 +453,13 @@
       </div>
       <div class="job-sub">Top 10 academic medical center in the US.</div>
       <ul>
-        <li>Led high-volume, full-cycle recruiting for nursing leadership, clinical, and hospital operations roles for Benioff Children's Hospital.</li>
-        <li>Managed 75+ active requisitions concurrently; averaged 45 hires per month across high-volume and hard-to-fill roles.</li>
-        <li>Led and revitalized New Grad & RN training programs, driving 125+ nursing hires for two consecutive years.</li>
-        <li>Served as workforce deployment lead during 2018 RN & clinical staff labor strike, managing surge staffing across service areas.</li>
-        <li>Partnered with senior leadership on workforce planning, job descriptions, compensation, succession, and recruiting strategy.</li>
-        <li>Reduced recruiting ad spend and agency engagement while improving social media and employee referral program effectiveness.</li>
-        <li>Conducted manager training on structured interviewing, JD writing, and compliance (union, hourly, exempt).</li>
+        <li>High-volume full-cycle recruiting for nursing leadership, clinical, and hospital operations roles at Benioff Children's Hospital.</li>
+        <li>Managed 75+ open requisitions concurrently; averaged 45 hires per month across high-volume and hard-to-fill roles.</li>
+        <li>Revitalized the New Grad &amp; RN training program, driving 125+ nursing hires for two consecutive years.</li>
+        <li>Workforce deployment lead during the 2018 RN and clinical staff labor strike, managing surge staffing across service areas.</li>
+        <li>Partnered with hospital senior leadership on workforce planning, job descriptions, compensation, and succession.</li>
+        <li>Reduced ad spend and agency engagement while improving social media and employee-referral program results.</li>
+        <li>Trained managers on structured interviewing, JD writing, and compliance (union, hourly, exempt).</li>
       </ul>
     </div>
 
@@ -315,8 +470,8 @@
       </div>
       <div class="job-sub">Key clients: Clover Health, Symphony Commerce, Recurly, Rosetta Stone</div>
       <ul>
-        <li>Full-cycle recruiting across Engineering, Data Science, Design, Product, and Sales — averaging 10–15 hires/quarter.</li>
-        <li>Defined compensation bands, interview/selection frameworks, and sourcing strategy for each engagement.</li>
+        <li>Full-cycle recruiting across Engineering, Data Science, Design, Product, and Sales, averaging 10–15 hires per quarter.</li>
+        <li>Defined compensation bands, interview frameworks, and sourcing strategy for each engagement.</li>
         <li>Selected and deployed ATS and sourcing tooling (Greenhouse, Lever, LinkedIn Recruiter); trained in-house TA staff.</li>
       </ul>
     </div>
@@ -329,8 +484,12 @@
       <div class="job-sub">SaaS predictive analytics platform for web and mobile. ML/data science focus.</div>
       <ul>
         <li>Full-cycle recruiting: Engineering, Data Science, Product, Sales, Design.</li>
-        <li>Built college recruiting program from ground up including full-time and year-round intern/co-op pipeline.</li>
+        <li>Built the college recruiting program from the ground up, including a full-time and year-round intern/co-op pipeline.</li>
       </ul>
+    </div>
+
+    <div class="budget-note">
+      <strong>Built to a budget, every time.</strong> Comp bands, capacity models, and a deliberately lean tooling stack, partnered with Finance from the forecast through the offer. Every startup hire above was made without agency spend.
     </div>
   </section>
 
@@ -339,9 +498,9 @@
     
     <!-- EDUCATION & CERTIFICATIONS -->
     <section>
-      <div class="section-title">Education & Certifications</div>
+      <div class="section-title">Education &amp; Certifications</div>
       <div class="summary-list-block">
-        • <strong>AI Native Recruiter</strong> : PromptMates (Global AI + Talent Community)<br>
+        • <strong>Certified AI Native Recruiter</strong> : PromptMates (Global AI + Talent Community)<br>
         • <strong>University of San Francisco</strong> : BA, Psychology &bull; <em>Member PsiChi Psychology Honor Society</em><br>
         • <strong>Cal State East Bay</strong>: Advanced HR Certificate<br>
         • <strong>SPHR</strong>: Senior Professional in Human Resources <em>(Lapsed during COVID)</em>
@@ -352,13 +511,20 @@
     <section>
       <div class="section-title">Professional Communities</div>
       <div class="summary-list-block">
-        • <strong>Founding Member</strong> &bull; PromptMates (Global AI + Talent Community) | Certified AI Native Recruiter<br>
-        • <strong>Contributing Member</strong>, AI & Automations Mastermind Group &bull; Talent Collective<br>
+        • <strong>Founding Member</strong> &bull; PromptMates (Global AI + Talent Community)<br>
+        • <strong>Co-lead</strong>, AI &amp; Automations Mastermind Group &bull; Talent Collective<br>
         • <strong>Contributing Talent Advisor</strong> &bull; People Tech Partners (Talent Division)
       </div>
     </section>
 
   </div>
+
+  <!-- WHAT I'M LOOKING FOR -->
+  <section class="looking-for">
+    <div class="section-title">🎯 What I'm Looking For</div>
+    <p>A company that still runs like a startup, whatever its headcount. A technical product I believe in. Hard problems that don't have answers <em>yet</em>. Smart, dedicated colleagues pulling toward the same goals. An influential and collaborative seat on how we hire, regardless of what the title says.</p>
+    <p>Humans are the first line of whether a company succeeds. I want to be the person making sure the right ones get in.</p>
+  </section>
 
 </div>
 

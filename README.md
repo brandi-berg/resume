@@ -4,7 +4,7 @@
 
 I help startups hire the humans who make the product work. 15+ years across full-cycle recruiting, recruiting operations, and People, at AI-native, developer-tooling, and infrastructure companies from Series A through D. Built the talent function from zero twice, scaled a third from 50 to 220+, and ran every one of them lean.
 
-I also build the tooling. Working AI agents and automations, shipped and public, not slideware.
+I also build tooling. Working AI agents and automations, shipped and public, not slideware.
 
 ## 🌐 Live Interactive Portfolio
 
@@ -16,11 +16,11 @@ I also build the tooling. Working AI agents and automations, shipped and public,
 
 ## ⚡ What I Actually Do
 
-**Translating subtle human signals into talent outcomes.** Through years of recruiting and deep human observation, I’ve learned that a candidate's slope, curiosity, and genuine intent are just as measurable as their hard skills. This helps teams see the whole candidate, not just what’s on paper, these unseen variables make the difference between a good hire and a transformative one.
+**Translating subtle human signals into talent outcomes.** Through years of recruiting and deep human observation, I’ve learned that a candidate's slope, curiosity, and genuine intent are just as measurable as their hard skills. This helps teams see the whole candidate, not just what’s on paper. These unseen variables make the difference between a good hire and a transformative one.
 
-**Advise founders and execs, including when it’s bad news.** From chasing candidates who were never going to say yes, or giving grace to candidates whose hesitation was conscientiousness, not disinterest. Same instrument, opposite calls. From good news to hard truths, always delivered with data and an understanding touch so it lands.
+**Advising founders and execs, even when it's bad news.** From good news to hard truths, just straight talk. I deliver the information with data behind it and an understanding touch, so we can take action. At times it's helping leaders see when we're asking too much, or not enough. Sometimes it's saying a candidate's yes is just not coming. Other times it's knowing to give grace to a candidate whose hesitation is conscientiousness, not disinterest. 
 
-**Design the systems that make hiring repeatable.** Interview methodology, structured scorecards, calibration cadence, leveling rubrics, job families, comp bands, capacity models. I built an escalating AI-fluency bar across an entire interview funnel at Replicated, from scratch, and it changed who got hired.
+**Designing the systems that make hiring repeatable.** Interview methodology, structured scorecards, calibration cadence, leveling rubrics, job families, comp bands, capacity models. I built an escalating AI-fluency bar across an entire interview funnel at Replicated, from scratch, and it changed who got hired.
 
 ---
 
@@ -37,12 +37,12 @@ Public work at [github.com/brandi-berg](https://github.com/brandi-berg).
 
 ---
 
-**Some Bleeding edge AI skills I've leveraged for high impact**  
+**Some bleeding edge AI skills I've leveraged for high impact**  
 *Why build when you don’t have to?* 
 
 🧰 **SkillsMate** Paste a job description. Get back the companies hiring that same talent, ranked by intensity, with Boolean strings and a tactical sourcing plan.
 
-🔧 **CareerMate** open-source Claude Code agent for automated job-board matching. Diagnosed and resolved npm permissions and skill-loading issues directly in the terminal.
+🔧 **CareerMate** open-source Claude Code agent for automated job-board matching. 
 
 **My Philosophy** Build the tools when the tools don't exist & leverage trusted ones when they have already been built 
 

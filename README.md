@@ -36,6 +36,7 @@ Public work at [github.com/brandi-berg](https://github.com/brandi-berg).
 🧑‍🦰 **Annie** Your job application assistant. A Claude Code plugin that helps you surface the most compelling details of your experience while keeping you the final approver of every word. You validate your skills, tone of voice, impact, metrics, etc.
 
 🎓 **AI & Automations Mastermind, Co-Lead** *(Talent Collective)* Building a user group that trains talent professionals to actually use AI tooling. Founding member, PromptMates. Certified AI Native Recruiter.  
+
 ---
 
 **Bleeding edge AI skills leveraged for high impact**  

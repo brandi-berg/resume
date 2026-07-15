@@ -16,7 +16,7 @@ I also build the tooling. Working AI agents and automations, shipped and public,
 
 ## ⚡ What I Actually Do
 
-**Translating subtle human signals into predictable talent outcomes.** Through years of recruiting and deep human observation, I’ve learned that a candidate's slope, curiosity, and genuine intent are just as measurable as their hard skills. This helps teams see the whole candidate, not just what’s on paper, these unseen variables make the difference between a good hire and a transformative one.
+**Translating subtle human signals into talent outcomes.** Through years of recruiting and deep human observation, I’ve learned that a candidate's slope, curiosity, and genuine intent are just as measurable as their hard skills. This helps teams see the whole candidate, not just what’s on paper, these unseen variables make the difference between a good hire and a transformative one.
 
 **Advise founders and execs, including when it’s bad news.** From chasing candidates who were never going to say yes, or giving grace to candidates whose hesitation was conscientiousness, not disinterest. Same instrument, opposite calls. From good news to hard truths, always delivered with data and an understanding touch so it lands.
 
@@ -26,7 +26,6 @@ I also build the tooling. Working AI agents and automations, shipped and public,
 ---
 
 ## 🤖 AI Systems I've Built & Use
-
 Public work at [github.com/brandi-berg](https://github.com/brandi-berg). 
 
 📦 [**Gibbons**](https://github.com/brandi-berg/gibbons) A structured recruiting workflow system that takes a role from rough job description to validated candidate outreach. Covers JD enhancement, kickoff signal extraction, OKR/KPI definition, interview kit generation, and candidate validation with citation-backed scoring. No generic output, no skipped steps, no context lost between sessions.
@@ -55,7 +54,7 @@ Public work at [github.com/brandi-berg](https://github.com/brandi-berg).
 | **Netlify** · Director, Recruiting | First recruiting hire. Scaled 50 → 220+. Built and led a team of 8. Sustained 92%+ offer acceptance. Over 45% of hires from underrepresented groups. |
 | **HumanSignal** · Head of Talent | First talent and People hire. Built both functions from zero. 41 hires across 7 countries. Wrote the handbook, the leveling rubrics, and the comp bands. |
 | **Replicated** · Recruiting Manager | Sole talent hire. 16 hires across 3 countries, IC through senior leadership. Designed an escalating AI-fluency bar across the full funnel. Built the recruiting automations that became Gibbons. |
-| **UCSF Medical Center** · Senior Recruiter | 75+ concurrent reqs, \~45 hires/month. Workforce deployment lead during the 2018 clinical staff strike. |
+| **UCSF Medical Center** · Senior Recruiter | 75+ concurrent reqs, ~45 hires per month. Workforce deployment lead during the 2018 clinical staff strike. |
 
 **Built to a budget, every time.** Comp bands, capacity models, and a deliberately lean tooling stack, partnered with Finance from the forecast through the offer. Every startup hire above was made without agency spend.
 

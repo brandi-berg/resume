@@ -33,7 +33,7 @@ Public work at [github.com/brandi-berg](https://github.com/brandi-berg).
 
 ⚡ **Tasker** A personal productivity PWA built in Next.js, integrating Google Calendar, Notion, ElevenLabs voice, the Claude API, and Supabase. Continuous delivery from GitHub to Netlify.
 
-🧑‍🦰 [**Annie**](https://github.com/brandi-berg/annie) A Claude Code plugin that drafts tailored cover letters and application answers, built strictly from your own materials, with a refuse-and-ask rule instead of improvisation and approval gates before every section. Annie is Gibbons' sibling. Gibbons works one side of the hiring desk; Annie works the other. 
+🧑‍🦰 [**Annie**](https://github.com/brandi-berg/annie) A Claude Code plugin that drafts tailored cover letters and application answers, built strictly from your own materials, with a refuse-and-ask rule instead of improvisation and approval gates before every section. Annie is Gibbons' sibling. Gibbons works one side of the hiring desk; Annie works the other.
 
 🎓 **AI & Automations Mastermind, Co-Lead** *(Talent Collective)* Building a user group that trains talent professionals to actually use AI tooling. Founding member, PromptMates. Certified AI Native Recruiter.  
 ---

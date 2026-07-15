@@ -27,16 +27,15 @@ I also build the tooling. Working AI agents and automations, shipped and public,
 
 ## 🤖 AI Systems I've Built & Use
 
-Public work at [github.com/brandi-berg](https://github.com/brandi-berg).
+Public work at [github.com/brandi-berg](https://github.com/brandi-berg). 
 
 📦 [**Gibbons**](https://github.com/brandi-berg/gibbons) A structured recruiting workflow system that takes a role from rough job description to validated candidate outreach. Covers JD enhancement, kickoff signal extraction, OKR/KPI definition, interview kit generation, and candidate validation with citation-backed scoring. No generic output, no skipped steps, no context lost between sessions.
 
 ⚡ **Tasker** A personal productivity PWA built in Next.js, integrating Google Calendar, Notion, ElevenLabs voice, the Claude API, and Supabase. Continuous delivery from GitHub to Netlify.
 
-🧑‍🦰 [**Annie**](https://github.com/brandi-berg/annie) Your job application assistant. A Claude Code plugin that helps you surface the most compelling details of your experience while keeping you the final approver of every word. You validate your skills, tone of voice, impact, metrics, etc.
+🧑‍🦰 [**Annie**](https://github.com/brandi-berg/annie) A Claude Code plugin that drafts tailored cover letters and application answers, built strictly from your own materials, with a refuse-and-ask rule instead of improvisation and approval gates before every section. Annie is Gibbons' sibling. Gibbons works one side of the hiring desk; Annie works the other. 
 
 🎓 **AI & Automations Mastermind, Co-Lead** *(Talent Collective)* Building a user group that trains talent professionals to actually use AI tooling. Founding member, PromptMates. Certified AI Native Recruiter.  
-
 ---
 
 **Bleeding edge AI skills leveraged for high impact**  
@@ -52,7 +51,7 @@ Public work at [github.com/brandi-berg](https://github.com/brandi-berg).
 
 |  |  |
 | :---- | :---- |
-| **Netlify** · Director, Recruiting | First recruiting hire. Scaled 50 → 220+. Built and led a team of 8\. Sustained 92%+ offer acceptance. 45%+ of hires from underrepresented groups. |
+| **Netlify** · Director, Recruiting | First recruiting hire. Scaled 50 → 220+. Built and led a team of 8. Sustained 92%+ offer acceptance. Over 45% of hires from underrepresented groups. |
 | **HumanSignal** · Head of Talent | First talent and People hire. Built both functions from zero. 41 hires across 7 countries. Wrote the handbook, the leveling rubrics, and the comp bands. |
 | **Replicated** · Recruiting Manager | Sole talent hire. 16 hires across 3 countries, IC through senior leadership. Designed an escalating AI-fluency bar across the full funnel. Built the recruiting automations that became Gibbons. |
 | **UCSF Medical Center** · Senior Recruiter | 75+ concurrent reqs, \~45 hires/month. Workforce deployment lead during the 2018 clinical staff strike. |
@@ -72,7 +71,7 @@ Public work at [github.com/brandi-berg](https://github.com/brandi-berg).
 
 ## 🎯 What I'm Looking For
 
-A company who operates like a startup \+ a technical product I believe in. Hard problems that don't have answers *yet*. A group of dedicated smart colleagues working toward a common goal. An influential seat on how we hire, regardless of what the title says. 
+A company that still runs like a startup, whatever its headcount. A technical product I believe in. Hard problems that don't have answers *yet*. Smart, dedicated colleagues pulling toward the same goals. An influential and collaborative seat on how we hire, regardless of what the title says.
 
 Humans are the first line of whether a company succeeds. I want to be the person making sure the right ones get in.
 

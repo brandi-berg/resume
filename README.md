@@ -22,7 +22,6 @@ I also build the tooling. Working AI agents and automations, shipped and public,
 
 **Design the systems that make hiring repeatable.** Interview methodology, structured scorecards, calibration cadence, leveling rubrics, job families, comp bands, capacity models. I built an escalating AI-fluency bar across an entire interview funnel at Replicated, from scratch, and it changed who got hired.
 
-**Build the tools when the tools don't exist & leverage trusted ones when they have already been built**  
 ---
 
 ## 🤖 AI Systems I've Built & Use
@@ -34,16 +33,18 @@ Public work at [github.com/brandi-berg](https://github.com/brandi-berg).
 
 🧑‍🦰 [**Annie**](https://github.com/brandi-berg/annie) A Claude Code plugin that drafts tailored cover letters and application answers, built strictly from your own materials, with a refuse-and-ask rule instead of improvisation and approval gates before every section. Annie is Gibbons' sibling. Gibbons works one side of the hiring desk; Annie works the other.
 
-🎓 **AI & Automations Mastermind, Co-Lead** *(Talent Collective)* Building a user group that trains talent professionals to actually use AI tooling. Founding member, PromptMates. Certified AI Native Recruiter.  
+🎓 **AI & Automations Mastermind, Co-Lead** *(Talent Collective)* Building a user group that trains talent professionals to actually use AI tooling. Founding member, PromptMates. Certified AI Native Recruiter.
 
 ---
 
-**Bleeding edge AI skills leveraged for high impact**  
+**Some Bleeding edge AI skills I've leveraged for high impact**  
 *Why build when you don’t have to?* 
 
 🧰 **SkillsMate** Paste a job description. Get back the companies hiring that same talent, ranked by intensity, with Boolean strings and a tactical sourcing plan.
 
 🔧 **CareerMate** open-source Claude Code agent for automated job-board matching. Diagnosed and resolved npm permissions and skill-loading issues directly in the terminal.
+
+**My Philosophy** Build the tools when the tools don't exist & leverage trusted ones when they have already been built 
 
 ---
 
